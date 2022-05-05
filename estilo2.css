@@ -1,0 +1,95 @@
+body {
+    background: #000000;
+    background-position: center center fixed;
+    background-size: cover;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+a{
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: #9255dc;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:hover {
+    cursor: pointer;
+    color: #d2aeff;
+}
+hr{
+    border-color: #6a10d9;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+#logo {
+    width: 65px;
+    margin: 5px;
+    border-radius: 50%;
+}
+#principal{
+    width: 250px;
+    border-radius: 50%;
+    border:5px solid #6a10d9;
+}
+
+.name {
+    margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color:#6a10d9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    padding: 10px;
+    max-width: 650px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #b47ff4;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+#botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background: #6a10d9;
+    color: #b47ff4;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #6a10d9;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ 
+button:hover{
+    box-shadow:1px 1px 1px 1px #eee;
+    cursor: pointer;
+    background: #9255dc;
+    color: #6a10d9;
+}
+
+#linha2 {
+    margin: 0 auto;
+    size: 10px;
+    width: 300px;
+}
